@@ -166,8 +166,6 @@ plt.show()
 - 17 components - aggressive compression, basic structure only
 
 ## Results
-$
-
 The program generates:
 1. **Cumulative variance graph** showing how many components achieve 95% coverage
 2. **Comparison grid** with 6 images:
@@ -246,3 +244,4 @@ The decrypted message perfectly matches the original, confirming the encryption/
 
 ## Mathematical Foundation
 The security relies on the difficulty of computing eigenvalues and eigenvectors without knowing the key matrix. The small imaginary components in encrypted values are numerical artifacts from floating-point calculations.
+
